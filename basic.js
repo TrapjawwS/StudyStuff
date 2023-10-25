@@ -1,3 +1,4 @@
+window.location.href = "/workspaces/StudyStuff/index.html"
 let typedKeys = "";
 
 document.addEventListener("keydown", function(event) {
