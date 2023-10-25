@@ -5,7 +5,7 @@ document.addEventListener("keydown", function(event) {
 
   if (typedKeys === "tboi") {
     window.location.href = "/workspaces/StudyStuff/tboi.html";
-  } else if (typedKeys.length > 6) {
+  } else if (typedKeys.length > 4) {
     typedKeys = "";
   }
 });
