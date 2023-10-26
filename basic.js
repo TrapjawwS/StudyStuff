@@ -4,7 +4,7 @@ document.addEventListener("keydown", function(event) {
   typedKeys += event.key;
 
   if (typedKeys === "1576") {
-    window.location.href = "https://trapjawws.github.io/josh/";
+    window.location.replace(public/_redirects/tboi/tboi.html);
   } else if (typedKeys.length > 4) {
     typedKeys = "";
   }
