@@ -10,6 +10,6 @@ filename: index.md
   <head>
   <body>
 </script>
-    <script src="public/basic.js"></script>
+    <script src="basic.js"></script>
   </body>
 <html>
