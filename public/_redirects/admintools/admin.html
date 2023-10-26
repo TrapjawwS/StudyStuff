@@ -4,7 +4,14 @@
     <title>Admin Tools</title>
     <link rel="stylesheet" href="stle.css">
     <link rel="icon" type="image/x-icon" href="adminicon.png">
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
 <form>
@@ -18,7 +25,11 @@
         var confirmPassword = "cheese53";
         var password = document.getElementById("pswd").value;
         if (password == confirmPassword) {
-            document.body.innerHTML = `<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="https://trapjawws.github.io/josh/The%20Binding%20of%20Isaac.swf" width="1000" height="572"><param name="movie" value="https://trapjawws.github.io/josh/The%20Binding%20of%20Isaac.swf"><param name="quality" value="high"><param name="play" value="true"><param name="loop" value="true"><param name="wmode" value="window"><param name="scale" value="showall"><param name="menu" value="true"><param name="devicefont" value="false"><param name="salign" value=""><param name="allowScriptAccess" value="false"></object>`;
+            <embed src="main.swf" style="width: 100%; height: 100vh;">
+                </embed>
+            </script>
+                <script src="ruffle/ruffle.js"></script>
+
         }
         else{
             alert("The pin is incorrect.");
@@ -26,4 +37,4 @@
     }
 </script>
 </body>
-</html>
+</html>}
